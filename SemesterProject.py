@@ -154,7 +154,7 @@ def mdanderson():
     arrow.color("red")
     arrow.circle(3)
     arrow.color("black")
-    arrow.write("Whataburger", font="Arial 20")
+    arrow.write("", font="Arial 20")
 
 
     arrow.up()
@@ -800,7 +800,7 @@ photo = PhotoImage(file="yelpicon.gif")
 label = Label(image=photo)
 label.image = photo
 label.pack()
-Label(MainWindow, text="\n\nChoose a cuisine:\n", bg="#ce2200", fg="white").pack()
+Label(MainWindow, text="\n\nChoose a Hospital :\n", bg="#ce2200", fg="white").pack()
 Button(MainWindow, text="M.D. Anderson", command=mdanderson).pack()
 Button(MainWindow, text="Houston Cancer Institute", command=houstoncancerinstitute).pack()
 Button(MainWindow, text="Houston Methodist", command=houstonmethodist).pack()
